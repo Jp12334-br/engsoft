@@ -1,0 +1,10 @@
+From alpine:latest
+
+RUN <<EOF
+
+apk update
+apk add figlet
+apk cache clean --purge
+echo $HOME > minha-pasta.txt
+
+EOF
