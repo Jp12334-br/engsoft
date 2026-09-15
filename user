@@ -2,9 +2,6 @@ FROM alpine:latest
 RUN addgroup -S fiplan && adduser -S -g fiplan preti
 WORKDIR /app
 COPY . /app
-RUN <<EOF
-apk update
-apk add python3
-EOF
+RUN apk update && apk add python3 
 USER user@DESKTOP-HBJ2RAI
 ENTRYPOINT [“python3”, “programa.py”]
