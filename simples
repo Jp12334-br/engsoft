@@ -2,5 +2,6 @@ From alpine:3.24.1
 RUN ["apk", "update"]
 RUN ["apk", "add","figlet"]
 RUN ["apk", "cache", "clean","--purge"]
+CMD["figlet","OLA"]
 RUN rm -rf /var/cache/apk/*
 RUN echo $HOME > minha-pasta.txt
