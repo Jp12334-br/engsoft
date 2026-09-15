@@ -1,4 +1,4 @@
 FROM alpine:latest
 RUN apk update
-RUN apl add figlet
+RUN apk add figlet
 CMD["figlet","Ola"]
