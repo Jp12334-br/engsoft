@@ -5,17 +5,14 @@ Curso descreve toda a engenharia por traz da computação
 Curso é oferecido pelo IFMT
 Meu erro foi ...........
 ```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    participant John
-
-    Alice->>John: Hello John, how are you?
-    loop HealthCheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
+  gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
 ```
