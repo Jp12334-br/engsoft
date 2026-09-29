@@ -8,6 +8,8 @@ Meu erro foi ...........
 kanban
   column1[Integrar Esp32 com modulos]
     task1[Conecta os modulos e sensores com esp32]
+  column2[Criar Json dos dados coeltados Pelo Esp32]
+    task2[Utilizando a biblioteca JsonArduino cria um Json]
 
 
 ```
