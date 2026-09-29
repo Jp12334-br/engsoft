@@ -8,7 +8,7 @@ Meu erro foi ...........
   gitGraph
        commit
        commit
-       branch feat:adiciona
+       branch feat adiciona
        commit
        commit
        commit
