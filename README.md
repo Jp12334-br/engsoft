@@ -5,14 +5,8 @@ Curso descreve toda a engenharia por traz da computação
 Curso é oferecido pelo IFMT
 Meu erro foi ...........
 ```mermaid
-     gitGraph
-       commit
-       commit
-       branch develop
-       commit
-       commit
-       commit
-       checkout main
-       commit
-       commit
+   erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
