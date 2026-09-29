@@ -5,10 +5,10 @@ Curso descreve toda a engenharia por traz da computação
 Curso é oferecido pelo IFMT
 Meu erro foi ...........
 ```mermaid
-  gitGraph
+     gitGraph
        commit
        commit
-       branch feat adiciona
+       branch develop
        commit
        commit
        commit
